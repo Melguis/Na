@@ -49,6 +49,14 @@ body {
   height: 80vh
 }
 
+.footer-poem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+}
+
 .header-cats-img {
   display: flex;
   /* align-items: center;
@@ -63,6 +71,11 @@ body {
 
 .poem {
   line-height: 38px;
+}
+
+.footer-poem {
+  line-height: 38px;
+  text-align: center;
 }
 
 .shy-cat {
